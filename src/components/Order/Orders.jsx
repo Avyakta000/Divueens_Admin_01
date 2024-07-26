@@ -90,7 +90,7 @@ const Orders = () => {
                     <select
                       value={order.status}
                       onChange={(e) => handleStatusChange(order._id, e.target.value)}
-                      className={`px-4 py-2 bg-inherit hover:border-pink-300 hover:border rounded-md`}
+                      className={`px-4 py-2 bg-inherit rounded-md`}
                     >
                       <option value="pending">Pending</option>
                       <option value="failed">Failed</option>
